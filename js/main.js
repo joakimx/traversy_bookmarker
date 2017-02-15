@@ -18,12 +18,6 @@ function saveBookmark(e){
   console.log(bookmark);
 
 
-/*Local storage test
-localStorage.setItem('Test', 'Hello World');
-console.log(localStorage.getItem('Test'));
-localStorage.removeItem('Test');
-console.log(localStorage.getItem('Test'));
-*/
 
 
 //Test if bookmarks bin empty
@@ -74,7 +68,6 @@ function fetchBookmarks(){
   //Get output id
 
   var bookmarksResults = document.getElementById('bookmarksResults');
-  bookmarksResults.innerHTML = 'HELLO';
 
   for(var i = 0; i < bookmarks.length; i++){
     var name = bookmarks[i].name;
