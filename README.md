@@ -1,1 +1,4 @@
-# traversy_bookmarker
+# traversy bookmarker
+Using:
+        Javascript, JQUERY, Bootstrap (Jumbotron template)
+        
